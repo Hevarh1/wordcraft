@@ -203,6 +203,3 @@ fn typing_kurdish_in_new_document_advances_caret_smoothly() {
     assert!(last_x < first_x.unwrap(), "caret should advance leftwards overall");
     assert_eq!(props(&s, 0).bidi, Some(true), "paragraph auto-detected as right-to-left");
 }
-
-
-
